@@ -27,6 +27,23 @@ body {
     background-size: cover;
 }
 
+.marketHeaderContainer {
+    margin-top: 15px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.marketHeader {
+    font-size: 2em;
+    font-family: 'Roboto';
+    font-weight: 'bolder';
+    text-align: 'center';
+}
+
+.marketHeaderEmphasis {
+    color: red;
+}
+
 .circlelogo {
     background-color: #aaa;
     border-radius: 50%;
@@ -66,7 +83,8 @@ body {
 }
 
 .investimento {
-    width: 400px;
+    max-width: 400px;
+    max-height: 900px;
 }
 
 .footer {
