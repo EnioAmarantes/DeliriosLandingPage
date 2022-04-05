@@ -15,9 +15,9 @@ body {
 }
 
 .textHeader {
-    font-size: 4em;
+    font-size: 6em;
     font-family: 'Slackey';
-    text-shadow: 2px 2px #000;
+    text-shadow: -2px 4px rgba(158, 158, 158, 0.467);
 }
 
 .market {
@@ -63,6 +63,10 @@ body {
     background-image: url('./img/fundo\ 3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.investimento {
+    width: 400px;
 }
 
 .footer {
